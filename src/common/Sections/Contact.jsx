@@ -8,7 +8,12 @@ const Contact = () => {
         <h2>Contact me</h2>
         <div className="contacts">
           <div className="socials">
-            <a href="https://t.me/qrushz" target="_blank" className="social">
+            <a
+              href="https://t.me/qrushz"
+              target="_blank"
+              rel="noreferrer"
+              className="social"
+            >
               <div className="icon">
                 <i style={{ color: "#0088cc" }} className="bx bxl-telegram"></i>
               </div>
@@ -16,6 +21,7 @@ const Contact = () => {
             <a
               href="https://instagram.com/_a_khatamaliyev?igshid=ZDdkNTZiNTM="
               target="_blank"
+              rel="noreferrer"
               className="social"
             >
               <div className="icon">
@@ -28,6 +34,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/azizbek-xotamaliyev-927685151"
               target="_blank"
+              rel="noreferrer"
               className="social"
             >
               <div className="icon">
@@ -40,6 +47,7 @@ const Contact = () => {
             <a
               href="https://github.com/AzizbekGitHub99"
               target="_blank"
+              rel="noreferrer"
               className="social"
             >
               <div className="icon">
@@ -56,7 +64,7 @@ const Contact = () => {
           <div className="massage">
             <input type="text" placeholder="Enter your email" />
             <input type="text" placeholder="Enter your name" />
-            <textarea placeholder="Enter your massage"/>
+            <textarea placeholder="Enter your massage" />
             <button className="send-btn">Send</button>
           </div>
         </div>
