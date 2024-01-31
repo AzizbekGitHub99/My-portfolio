@@ -1,0 +1,123 @@
+$bg-color: #2a2a2a;
+$second-bg-color: #202020;
+$text-color: #fff;
+$second-text-color: #ccc;
+$main-color: #CA00FF;
+$big-font: 5rem;
+$h2-font: 3rem;
+$p-font: 1.1rem;
+
+
+.Navbar {
+  width: 100%;
+  padding: 0 5%;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  overflow: visible;
+  background-color: $second-bg-color;
+  box-shadow: 0 0 5px 0 black;
+  z-index: 10;
+  .nav-logo {
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    span{
+      color: $main-color;
+    }
+  }
+  .navigation {
+    display: flex;
+    position: relative;
+    gap: 25px;
+    .menu-item {
+      list-style: none;
+      overflow: hidden;
+      a {
+        text-decoration: none;
+        color: $second-text-color;
+        font-size: 17px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        position: relative;
+        &:hover{
+          color: $main-color;
+          transform-origin: center;
+        }
+      }
+    }
+  }
+  .menu-toggle {
+    display: none;
+    position: relative;
+    color: $text-color;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Navbar {
+    .navigation {
+      display: none;
+      border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
+      align-items: center;
+      padding: 20px;
+      position: absolute;
+      left: 0;
+      top: 80px;
+      flex-direction: column;
+      width: 100vw;
+      background-color: $second-bg-color;
+      border-radius: 0 0 10px 10px;
+    }
+    .open {
+      display: flex;
+      backdrop-filter: blur(2px);
+    }
+    .menu-toggle {
+      display: block;
+      font-size: 1.5em;
+      cursor: pointer;
+      z-index: 10;
+    }
+  }
+}
+// @media screen and (max-width: 400px) {
+//   .Navbar {
+//     min-height: 60px;
+//     .nav-logo {
+//       font-size: 1em;
+//     }
+//     .navigation {
+//       display: none;
+//       border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
+//       background-color: rgba($color: #FFC4FF, $alpha: 0.7);
+//       border-radius: 0 0 10px 10px;
+//       align-items: center;
+//       padding: 20px;
+//       position: absolute;
+//       font-size: 0.7em;
+//       left: 0;
+//       top: 60px;
+//       flex-direction: column;
+//       width: 100vw;
+//       .menu-item {
+//         a {
+//         }
+//       }
+//     }
+//     .open {
+//       display: flex;
+//       backdrop-filter: blur(2px);
+//     }
+//     .menu-toggle {
+//       display: block;
+//       font-size: 1.3em;
+//       cursor: pointer;
+//       z-index: 10;
+//     }
+//   }
+// }

@@ -1,0 +1,65 @@
+$bg-color: #2a2a2a;
+$second-bg-color: #202020;
+$text-color: #fff;
+$second-text-color: #ccc;
+$main-color: #CA00FF;
+$big-font: 5rem;
+$h2-font: 3rem;
+$p-font: 1.1rem;
+
+
+#home {
+  min-height: 100vh;
+  width: 100%;
+  padding: 60px 0 60px 0;
+  background-image: url('../../../public/images/home-bg.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  .container{
+    width: 90%;
+    margin: 0 5%;
+    .home-text{
+      h1{
+        font-size: $big-font;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0 0 8px;
+  
+      }
+      .animation-text{
+        width: 500px;
+        h3{
+          margin: 0 0 35px;
+          font-size: 3rem;
+          font-weight: 700;
+          line-height: 1.2;
+          color: transparent;
+          -webkit-text-stroke: .8px $main-color;
+          
+        }
+      }
+      p{
+        color: $second-text-color;
+        font-size: $p-font;
+        line-height: 1.8;
+        margin-bottom: 40px;
+      }
+    }
+    .button{
+      display: inline-block;
+      background-color: $main-color;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 5px;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      font-weight: 600;
+      transition: all .45s ease;
+      &:hover{
+        transform: scale(0.9);
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+$bg-color: #2a2a2a;
+$second-bg-color: #202020;
+$text-color: #fff;
+$second-text-color: #ccc;
+$main-color: #ca00ff;
+$big-font: 5rem;
+$h2-font: 3rem;
+$p-font: 1.1rem;
+
+#contact {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $second-bg-color;
+  .container {
+    width: 90%;
+    margin: 80px 5%;
+    height: 100%;
+    h2 {
+      font-size: $h2-font;
+      margin: 40px 0;
+      text-align: center;
+    }
+    .contacts {
+      width: 100%;
+      gap: 4%;
+      .socials {
+        margin: 40px 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        .social {
+          display: flex;
+          align-items: center;
+          min-height: 55px;
+          padding: 5px;
+          min-width: 55px;
+          text-decoration: none;
+          &:hover {
+            
+            .icon {
+              transform: scale(1.1);
+            }
+            p {
+              height: 20px;
+              width: 175px;
+            }
+          }
+          .icon {
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: scale(1);
+            transition: all .5s ease;
+            overflow: visible;
+            .bx {
+              font-size: 30px;
+            }
+          }
+          p {
+            padding-left: 5px;
+            font-size: $p-font;
+            display: inline-block;
+            height: 0;
+            width: 0;
+            transition: width 0.4s;
+            overflow: hidden;
+          }
+        }
+      }
+      .massage {
+        width: 100%;
+        margin: 40px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+        input {
+          background-color: rgba($color: #000000, $alpha: 0);
+          width: 300px;
+          height: 40px;
+          font-size: $p-font;
+          border: none;
+          border-bottom: 1px solid $second-text-color;
+        }        
+        textarea {
+          background-color: rgba($color: #000000, $alpha: 0);
+          width: 300px;
+          height: 100px;
+          font-size: $p-font;
+          border: none;
+          border-bottom: 1px solid $second-text-color;
+        }
+        .send-btn{
+          width: 300px;
+          background-color: $main-color;
+          padding: 12px 28px;
+          border-radius: 5px;
+          font-size: 1rem;
+          letter-spacing: 1px;
+          border: none;
+          font-weight: 600;
+          transition: all .45s ease;
+          &:hover{
+            transform: scale(0.9);
+          }
+        }
+      }
+    }
+  }
+}

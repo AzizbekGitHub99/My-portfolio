@@ -1,0 +1,22 @@
+$bg-color: #2a2a2a;
+$second-bg-color: #202020;
+$text-color: #fff;
+$second-text-color: #ccc;
+$main-color: #CA00FF;
+$big-font: 5rem;
+$h2-font: 3rem;
+$p-font: 1.1rem;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  color: $text-color;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  background-color: $bg-color;
+}
