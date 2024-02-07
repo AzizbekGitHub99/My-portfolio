@@ -59,6 +59,16 @@ const Portfolio = () => {
               <h4>Drag and Drop test work</h4>
             </div>
           </a>
+          <a href='https://pokemonsfromazyzbe.netlify.app/' className="work-card" target='_blank'>
+            <div className="card-up pokemon">
+              <div className="up-curtain">
+                visit the site
+              </div>
+            </div>
+            <div className="card-down">
+              <h4>Pokemon site, integrated with backend</h4>
+            </div>
+          </a>
         </div>       
       </div>
     </div>
