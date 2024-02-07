@@ -54,7 +54,7 @@ const Contact = () => {
                 <i style={{ color: "#171515 " }} className="bx bxl-github"></i>
               </div>
             </a>
-            <a className="social">
+            <a href="gsdgds" className="social">
               <div className="icon">
                 <i style={{ color: "#25D366" }} className="bx bxs-phone"></i>
               </div>

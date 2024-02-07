@@ -9,7 +9,7 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <div className="my-works">
-          <a href='https://sultan-clone.netlify.app/' className="work-card" target='_blank'>
+          <a href='https://sultan-clone.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
             <div className="card-up sultan">
               <div className="up-curtain">
                 visit the site
@@ -19,7 +19,7 @@ const Portfolio = () => {
               <h4>Sultan converted from figma</h4>
             </div>
           </a>
-          <a href='https://crudfromazizbe.netlify.app/' className="work-card" target='_blank'>
+          <a href='https://crudfromazizbe.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
             <div className="card-up crud">
               <div className="up-curtain">
                 visit the site
@@ -29,7 +29,7 @@ const Portfolio = () => {
               <h4>Crud with non-bootsrap modal</h4>
             </div>
           </a>
-          <a href='https://weatherappfromazizbe.netlify.app/' className="work-card" target='_blank'>
+          <a href='https://weatherappfromazizbe.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
             <div className="card-up weather">
               <div className="up-curtain">
                 visit the site
@@ -39,7 +39,7 @@ const Portfolio = () => {
               <h4>Created using API</h4>
             </div>
           </a>
-          <a href='https://ddsofttest.netlify.app/' className="work-card" target='_blank'>
+          <a href='https://ddsofttest.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
             <div className="card-up ddsoft">
               <div className="up-curtain">
                 visit the site
@@ -49,7 +49,7 @@ const Portfolio = () => {
               <h4>Converted from figma</h4>
             </div>
           </a>
-          <a href='https://draganddropfromazizbe.netlify.app/' className="work-card" target='_blank'>
+          <a href='https://draganddropfromazizbe.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
             <div className="card-up dnd">
               <div className="up-curtain">
                 visit the site
@@ -59,7 +59,7 @@ const Portfolio = () => {
               <h4>Drag and Drop test work</h4>
             </div>
           </a>
-          <a href='https://pokemonsfromazyzbe.netlify.app/' className="work-card" target='_blank'>
+          <a href='https://pokemonsfromazyzbe.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
             <div className="card-up pokemon">
               <div className="up-curtain">
                 visit the site
