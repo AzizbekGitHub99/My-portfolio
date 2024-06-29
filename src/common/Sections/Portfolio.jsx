@@ -1,4 +1,5 @@
-import React from 'react'
+import WorkCard from '../../components/WorkCard'
+import { myWorks } from '../../constants'
 import './Portfolio.scss'
 
 const Portfolio = () => {
@@ -9,66 +10,7 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <div className="my-works">
-          <a href='https://sultan-clone.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
-            <div className="card-up sultan">
-              <div className="up-curtain">
-                visit the site
-              </div>
-            </div>
-            <div className="card-down">
-              <h4>Sultan converted from figma</h4>
-            </div>
-          </a>
-          <a href='https://crudfromazizbe.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
-            <div className="card-up crud">
-              <div className="up-curtain">
-                visit the site
-              </div>
-            </div>
-            <div className="card-down">
-              <h4>Crud with non-bootsrap modal</h4>
-            </div>
-          </a>
-          <a href='https://weatherappfromazizbe.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
-            <div className="card-up weather">
-              <div className="up-curtain">
-                visit the site
-              </div>
-            </div>
-            <div className="card-down">
-              <h4>Created using API</h4>
-            </div>
-          </a>
-          <a href='https://ddsofttest.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
-            <div className="card-up ddsoft">
-              <div className="up-curtain">
-                visit the site
-              </div>
-            </div>
-            <div className="card-down">
-              <h4>Converted from figma</h4>
-            </div>
-          </a>
-          <a href='https://draganddropfromazizbe.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
-            <div className="card-up dnd">
-              <div className="up-curtain">
-                visit the site
-              </div>
-            </div>
-            <div className="card-down">
-              <h4>Drag and Drop test work</h4>
-            </div>
-          </a>
-          <a href='https://pokemonsfromazyzbe.netlify.app/' className="work-card" target='_blank' rel="noreferrer">
-            <div className="card-up pokemon">
-              <div className="up-curtain">
-                visit the site
-              </div>
-            </div>
-            <div className="card-down">
-              <h4>Pokemon site, integrated with backend</h4>
-            </div>
-          </a>
+          {myWorks.map(work => <WorkCard work={work} key={work.id}/>)}
         </div>       
       </div>
     </div>
