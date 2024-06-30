@@ -1,7 +1,6 @@
 import "./SkillCard.scss";
 
 const SkillCard = ({skill}) => {
-  console.log(skill);
   return (
     <div className="card-box">
       <div className="skill-card">
