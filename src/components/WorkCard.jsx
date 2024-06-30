@@ -1,4 +1,5 @@
 import React from "react";
+import "./WorkCard.scss"
 
 const WorkCard = ({ work }) => {
   return (
@@ -8,9 +9,9 @@ const WorkCard = ({ work }) => {
       target="_blank"
       rel="noreferrer"
     >
-      <div className="card-up" style={{backgroundImage: work.image}}>
+      <div className="card-up" style={{backgroundImage: `url(${work.image})`}}>
         <div className="up-curtain">
-          <a href={work.url}>
+          <a className="work-link" href={work.url} target={"_blank"} rel="noreferrer">
             <svg
               width="25px"
               height="25px"
@@ -25,7 +26,7 @@ const WorkCard = ({ work }) => {
               />
             </svg>
           </a>
-          <a href={work.gurl}>
+          <a className="work-link" href={work.gurl}>
             <svg
               width="25px"
               height="25px"
@@ -39,17 +40,17 @@ const WorkCard = ({ work }) => {
               <g
                 id="Free-Icons"
                 stroke="none"
-                stroke-width="1"
+                strokeWidth="1"
                 fill="none"
-                fill-rule="evenodd"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                fillRule="evenodd"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <g
                   transform="translate(-303.000000, -456.000000)"
                   id="Group"
                   stroke="#fff"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <g transform="translate(301.000000, 450.000000)" id="Shape">
                     <polyline points="8 17 3 11.8672478 8 7"></polyline>
@@ -62,7 +63,7 @@ const WorkCard = ({ work }) => {
         </div>
       </div>
       <div className="card-down">
-        <h4>{work.name}</h4>
+        <h4>{work.name} {work.backend ? "":"(In progress)"}</h4>
       </div>
     </div>
   );
