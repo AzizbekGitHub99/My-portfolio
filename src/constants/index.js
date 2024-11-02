@@ -75,6 +75,30 @@ const mySkills = [
 const myWorks = [
   {
     id: 1,
+    name: "Gilam Saray",
+    url: "https://gilamsaray.uz/",
+    image: "../images/gilamsaray.png",
+    gurl: "https://github.com/AzizbekGitHub99/gilam-saray",
+    backend: false,
+  },
+  {
+    id: 2,
+    name: "InHouse",
+    url: "https://inhouse-getter.netlify.app/",
+    image: "../images/inhouse.png",
+    gurl: "https://github.com/AzizbekGitHub99/inhouse-GETTER",
+    backend: true,
+  },
+  {
+    id: 3,
+    name: "Shaxmat Federatsiyasi",
+    url: "https://shaxmat-federatsiyasi.netlify.app/",
+    image: "../images/shaxmat.png",
+    gurl: "https://github.com/AzizbekGitHub99/shaxmat-GETTER",
+    backend: true,
+  },
+  {
+    id: 4,
     name: "Sultan e-Market",
     url: "https://sultan-clone.netlify.app/",
     image: "../images/sultan.jpg",
@@ -82,7 +106,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 2,
+    id: 5,
     name: "CRUD - MOCK",
     url: "https://crudwithmock.netlify.app/",
     image: "../images/crud-mock.png",
@@ -90,7 +114,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 3,
+    id: 6,
     name: "Kuda Pizza",
     url: "https://kudapizzafromazyzbe.netlify.app/",
     image: "../images/kuda-pizza.png",
@@ -98,7 +122,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 4,
+    id: 7,
     name: "Full ToDo App",
     url: "https://fulltodoapp.netlify.app/",
     image: "../images/todo.png",
@@ -106,7 +130,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 5,
+    id: 8,
     name: "Serveryanochka",
     url: "https://azyzbeexam.netlify.app/",
     image: "../images/serveryanochka.png",
@@ -114,7 +138,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 6,
+    id: 9,
     name: "Countries",
     url: "https://countriefromazyzbe.netlify.app/",
     image: "../images/countries.png",
@@ -122,7 +146,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 8,
+    id: 10,
     name: "Phone (Click Power on)",
     url: "https://phonefromazyzbe.netlify.app/",
     image: "../images/phone.png",
@@ -130,7 +154,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 9,
+    id: 11,
     name: "Pokemon",
     url: "https://pokemonsfromazyzbe.netlify.app/",
     image: "../images/pokemon.png",
@@ -138,7 +162,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 10,
+    id: 12,
     name: "Drag and Drop",
     url: "https://draganddropfromazizbe.netlify.app/",
     image: "../images/dnd.png",
@@ -146,7 +170,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 11,
+    id: 13,
     name: "Weather App",
     url: "https://weatherappfromazizbe.netlify.app/",
     image: "../images/weather.jpg",
@@ -154,7 +178,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 12,
+    id: 14,
     name: "Blog App",
     url: "http://azizbek-dev.uz/",
     image: "../images/blog.png",
