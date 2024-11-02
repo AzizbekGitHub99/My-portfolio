@@ -12,7 +12,7 @@ const Home = () => {
               Frontend Developer
             </h3>
           </div>
-          <p>I'm 23 years old and my level is Junior. </p>
+          <p>I'm 25 years old and my level is Junior. </p>
         </div>
         <a href="./images/Azizbek Xotamaliyev.pdf" target='_blank' className="button">
           Watch my resume
