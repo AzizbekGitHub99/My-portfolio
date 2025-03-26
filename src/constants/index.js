@@ -75,6 +75,22 @@ const mySkills = [
 const myWorks = [
   {
     id: 1,
+    name: "Akhmedov Ice Cream",
+    url: "https://akmedov.uz/",
+    image: "../images/akmedov.png",
+    gurl: "https://github.com/userFrontend/ice_cream",
+    backend: true,
+  },
+  {
+    id: 2,
+    name: "Brand Cosmetics",
+    url: "https://online-market-hazel.vercel.app/",
+    image: "../images/brand-cosmetics.png",
+    gurl: "https://github.com/userFrontend/online_market",
+    backend: true,
+  },
+  {
+    id: 3,
     name: "Gilam Saray",
     url: "https://gilamsaray.uz/",
     image: "../images/gilamsaray.png",
@@ -82,7 +98,7 @@ const myWorks = [
     backend: false,
   },
   {
-    id: 2,
+    id: 4,
     name: "InHouse",
     url: "https://inhouse-getter.netlify.app/",
     image: "../images/inhouse.png",
@@ -90,7 +106,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 3,
+    id: 5,
     name: "Shaxmat Federatsiyasi",
     url: "https://shaxmat-federatsiyasi.netlify.app/",
     image: "../images/shaxmat.png",
@@ -98,7 +114,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 4,
+    id: 6,
     name: "Sultan e-Market",
     url: "https://sultan-clone.netlify.app/",
     image: "../images/sultan.jpg",
@@ -106,7 +122,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 5,
+    id: 7,
     name: "CRUD - MOCK",
     url: "https://crudwithmock.netlify.app/",
     image: "../images/crud-mock.png",
@@ -114,7 +130,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 6,
+    id: 8,
     name: "Kuda Pizza",
     url: "https://kudapizzafromazyzbe.netlify.app/",
     image: "../images/kuda-pizza.png",
@@ -122,7 +138,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 7,
+    id: 9,
     name: "Full ToDo App",
     url: "https://fulltodoapp.netlify.app/",
     image: "../images/todo.png",
@@ -130,7 +146,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 8,
+    id: 10,
     name: "Serveryanochka",
     url: "https://azyzbeexam.netlify.app/",
     image: "../images/serveryanochka.png",
@@ -138,7 +154,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 9,
+    id: 11,
     name: "Countries",
     url: "https://countriefromazyzbe.netlify.app/",
     image: "../images/countries.png",
@@ -146,7 +162,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 10,
+    id: 12,
     name: "Phone (Click Power on)",
     url: "https://phonefromazyzbe.netlify.app/",
     image: "../images/phone.png",
@@ -154,7 +170,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 11,
+    id: 13,
     name: "Pokemon",
     url: "https://pokemonsfromazyzbe.netlify.app/",
     image: "../images/pokemon.png",
@@ -162,7 +178,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 12,
+    id: 14,
     name: "Drag and Drop",
     url: "https://draganddropfromazizbe.netlify.app/",
     image: "../images/dnd.png",
@@ -170,7 +186,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 13,
+    id: 15,
     name: "Weather App",
     url: "https://weatherappfromazizbe.netlify.app/",
     image: "../images/weather.jpg",
@@ -178,7 +194,7 @@ const myWorks = [
     backend: true,
   },
   {
-    id: 14,
+    id: 16,
     name: "Blog App",
     url: "http://azizbek-dev.uz/",
     image: "../images/blog.png",
