@@ -4,7 +4,7 @@ import "./Contact.scss";
 const Contact = () => {
   return (
     <div id="contact">
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <h2>Contact me</h2>
         <div className="contacts">
           <div className="socials">

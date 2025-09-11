@@ -14,6 +14,8 @@ $p-font: 1.1rem;
   align-items: center;
   justify-content: center;
   background-color: $second-bg-color;
+  overflow: hidden;
+
   .container {
     width: 90%;
     margin: 80px 5%;
@@ -42,7 +44,6 @@ $p-font: 1.1rem;
           min-width: 55px;
           text-decoration: none;
           &:hover {
-            
             .icon {
               transform: scale(1.1);
             }
@@ -60,7 +61,7 @@ $p-font: 1.1rem;
             align-items: center;
             justify-content: center;
             transform: scale(1);
-            transition: all .5s ease;
+            transition: all 0.5s ease;
             overflow: visible;
             .bx {
               font-size: 30px;
@@ -91,7 +92,7 @@ $p-font: 1.1rem;
           font-size: $p-font;
           border: none;
           border-bottom: 1px solid $second-text-color;
-        }        
+        }
         textarea {
           background-color: rgba($color: #000000, $alpha: 0);
           width: 300px;
@@ -100,7 +101,7 @@ $p-font: 1.1rem;
           border: none;
           border-bottom: 1px solid $second-text-color;
         }
-        .send-btn{
+        .send-btn {
           width: 300px;
           background-color: $main-color;
           padding: 12px 28px;
@@ -109,8 +110,8 @@ $p-font: 1.1rem;
           letter-spacing: 1px;
           border: none;
           font-weight: 600;
-          transition: all .45s ease;
-          &:hover{
+          transition: all 0.45s ease;
+          &:hover {
             transform: scale(0.9);
           }
         }

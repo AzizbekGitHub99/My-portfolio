@@ -5,7 +5,7 @@ import './Portfolio.scss'
 const Portfolio = () => {
   return (
     <div id='portfolio'>
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <h2>
           Portfolio
         </h2>

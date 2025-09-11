@@ -6,7 +6,7 @@ import SkillCard from "../../components/SkillCard";
 const MySkills = () => {
   return (
     <div id="mySkills">
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <h2>My Skills</h2>
         <div className="skills">
           {mySkills.map(skill => <SkillCard skill={skill} key={skill.id}/>)}
