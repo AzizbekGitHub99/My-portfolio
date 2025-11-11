@@ -14,7 +14,7 @@ const Home = () => {
           </div>
           <p>I'm 25 years old and my level is Junior. </p>
         </div>
-        <a href="./images/Azizbek Xotamaliyev.pdf" target='_blank' className="button">
+        <a href="./images/azizbek_xotamaliyev_cv.pdf" target='_blank' className="button">
           Watch my resume
         </a>
       </div>
